@@ -16,6 +16,13 @@ function App() {
         <div className='row gy-4'>
           <div className='col-12'>
             <h1>FILM</h1>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select menu</option>
+              <option value="1">Fantascienza</option>
+              <option value="2">Thriller</option>
+              <option value="3">Romantico</option>
+              <option value="4">Azione</option>
+            </select>
           </div>
           <div className='col-12'>
             <ul className='list-group'>
